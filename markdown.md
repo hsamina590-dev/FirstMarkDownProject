@@ -63,11 +63,12 @@ This is my another try to learn `markdown.`
 # Mermaid Diagram
 ``` mermaid
 graph TD
-A[Start]--> B{Decision} --> C(Rounded)
+A[A. Start]--> B{B. Decision} --> C(C. Rounded)
 A --> |Yes| C
 C --> B 
 B --> C
-A --> D(Finished)
+A --> D(D. Finished)
+D --> C
 ```
 
 

@@ -70,6 +70,8 @@ B --> C
 A --> D(D. Finished)
 D --> C
 ```
+## Inline code
 
+This web site is using `markedjs/marked`.
 
 ...

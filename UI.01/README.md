@@ -118,8 +118,6 @@ The `m-4` class applies margin to the heading.
 
 ### Understand spacing scale
 
-<details>
-
 The `p-4 m-6` class applies spacing scale to the heading.
 
 ### Use arbitrary value such as w-[420px]
@@ -130,6 +128,7 @@ The `w-[420px]` class applies w-[420px] the heading.
 
  The `w-[420px] p-4 m-4 bg-blue-500 text-white font-bold` class applies  multiple utilities correctl the heading.
 
+<details>
 <summary>01 — Install Tailwind CSS</summary>
 
 ### What we learned

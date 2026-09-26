@@ -15,6 +15,12 @@ export default function Home() {
     <h1 className="text-blue-500">
       Apply text color
     </h1>
+<div className="bg-red-500">
+    Apply background color
+  </div>
+ <div className="border border-gray-500">
+    Apply border color
+  </div>
   );
 }
 ```
@@ -22,6 +28,14 @@ export default function Home() {
 ### Apply text color
 
 The `text-blue-500` class applies blue text color to the heading.
+
+### Apply background color
+
+The `bg-red-500` class applies red background color to the heading.
+
+### Apply border color
+
+The `border-gray-500` class applies gray border color to the heading.
 
 <details>
 <summary>01 — Install Tailwind CSS</summary>
@@ -31,6 +45,8 @@ The `text-blue-500` class applies blue text color to the heading.
 * Tailwind CSS installation
 * Using Tailwind CSS classes
 * Applying text color
+* Applying Background color
+* Applying border color
 * Using Tailwind CSS inside a Next.js project
 
 </details>

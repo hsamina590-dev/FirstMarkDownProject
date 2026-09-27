@@ -1,1 +1,10 @@
+# Layout Mastery
 
+## This is my second file with next.js
+
+export default function HOME(){
+return(
+
+)
+
+}

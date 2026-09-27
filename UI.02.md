@@ -15,6 +15,9 @@ export default function Home() {
     <div className="w-64 p-4 m-4 border-4 border-blue-500">
       CSS Box Model
     </div>
+<div className="block">
+    This is a block element
+  </div>
   );
 }
 ```
@@ -31,7 +34,9 @@ export default function Home() {
   The m-4 class adds margin.
   The border-4 class adds a border.
 
+### Block code with Tailwind
 
+* The class sets the block.
 
   
 </details>
@@ -44,7 +49,7 @@ export default function Home() {
 * Applying CSS Box Model through Tailwind
   Applying width, padding, margin, border (Combining multiple Tailwind utilities)
 
-
+* Applying class="block".
 
 
 

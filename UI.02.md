@@ -42,7 +42,7 @@ export default function Home() {
 ### What we learn
 
 * Applying CSS Box Model through Tailwind
-* Applying width, padding, margin, border (Combining multiple Tailwind utilities)
+  Applying width, padding, margin, border (Combining multiple Tailwind utilities)
 
 
 

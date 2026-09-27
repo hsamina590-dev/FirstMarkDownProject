@@ -22,19 +22,26 @@ export default function Home() {
 </details>
 
 <details>
-<summary>02 — What use the tailwind class</summary>
+<summary>02 — Tailwind Classes Used</summary>
 
-### Apply understand CSS box model through tailwind
+### Understand CSS Box Model through Tailwind
 
-The `w-64 p-4 m-4 border-4 border-color` the heading.
+The w-64 class sets the width.
 
+The p-4 class adds padding.
+
+The m-4 class adds margin.
+
+The border-4 class adds a border.
 </details>
 
 <details>
-<summary>03 - What we learn</summary>
+<summary>03 - What We Learned</summary>
 
 ### What we learn
 
+* Applying CSS Box Model through Tailwind
+* Applying width, padding, margin, border (Combining multiple Tailwind utilities)
 
 
 

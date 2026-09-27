@@ -26,13 +26,14 @@ export default function Home() {
 
 ### Understand CSS Box Model through Tailwind
 
-The w-64 class sets the width.
+* The w-64 class sets the width.
+  The p-4 class adds padding.
+  The m-4 class adds margin.
+  The border-4 class adds a border.
 
-The p-4 class adds padding.
 
-The m-4 class adds margin.
 
-The border-4 class adds a border.
+  
 </details>
 
 <details>

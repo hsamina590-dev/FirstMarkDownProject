@@ -1,16 +1,13 @@
 # Tailwind CSS Practice
 
 <details>
-<summary>Layout Mastery</summary>
+<summary>02 — Layout Mastery</summary>
 
 ## Tailwind CSS my project test with Next.js
 
 Tailwind CSS is already installed and `npm run dev` is working.
 
 ### This is a Tailwind CSS code block
-
-<details>
-<summary>Understand CSS Box Model through Tailwind</summary>
 
 ```tsx
 export default function Home() {

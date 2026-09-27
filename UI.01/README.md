@@ -60,6 +60,13 @@ export default function Home() {
 <div className="w-[420px] p-4 m-4 bg-blue-500 text-white font-bold">
     Combine multiple utilities
   </div>
+<div className="w-80 p-6 m-4 rounded-lg bg-white shadow-md">
+    <h2 className="text-2xl font-bold">Samina Hasan</h2>
+    <p className="mt-2 text-gray-600">Web Developer</p>
+    <button className="mt-4 px-4 py-2 rounded bg-blue-500 text-white">
+      View Profile
+    </button>
+  </div>
   );
 }
 ```
@@ -126,7 +133,11 @@ The `w-[420px]` class applies w-[420px] the heading.
 
 ### Combine multiple utilities correctly
 
- The `w-[420px] p-4 m-4 bg-blue-500 text-white font-bold` class applies  multiple utilities correctl the heading.
+ The `w-[420px] p-4 m-4 bg-blue-500 text-white font-bold` class applies  multiple utilities correctly the heading.
+
+### profile card using only tailwind utilities
+
+ The `w-80 p-6 m-4 rounded-lg bg-white shadow-md font-bold text-2xl px-4 py-2` class applies profile card using only tailwind utilities  the heading.
 
 <details>
 <summary>01 — Install Tailwind CSS</summary>
@@ -151,6 +162,7 @@ The `w-[420px]` class applies w-[420px] the heading.
 * Applying spacing scale
 * Applying  arbitrary value such as w-[420px]
 * Applying  Combine multiple utilities correctly
+* Applying profile card useing only tailwind utilities
 
 
 

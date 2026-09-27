@@ -3,7 +3,11 @@
 <details>
 <summary>Layout Mastery</summary>
 
-### This is my second file with next.js
+## Tailwind CSS my project test with Next.js
+
+Tailwind CSS is already installed and `npm run dev` is working.
+
+### This is a Tailwind CSS code block
 
 <details>
 <summary>Understand CSS Box Model through Tailwind</summary>

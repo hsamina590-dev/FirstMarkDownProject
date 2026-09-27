@@ -4,12 +4,13 @@
 
 ### This is my second file with next.js
 
-**Purpose:**  
-Tailwind CSS mein text ka color change karna.
-
 ### Code
 
 ```tsx
-<h1 className="text-red-500">
-  This is red text
-</h1>
+export default function HOME(){
+return(
+<div className="w-64 p-4 m-4 border-4 border-blue-500">
+    CSS Box Model
+  </div>
+)
+}

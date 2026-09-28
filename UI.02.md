@@ -90,6 +90,28 @@ export default function Home() {
     <div>Item 2</div>
     <div>Item 3</div>
   </div>
+<div className="grid grid-cols-3 gap-4">
+    <div className="col-span-2">Item 1</div>
+    <div>Item 2</div>
+    <div>Item 3</div>
+  </div>
+<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+    <div className="p-4 bg-blue-500">Item 1</div>
+    <div className="p-4 bg-green-500">Item 2</div>
+    <div className="p-4 bg-red-500">Item 3</div>
+    <div className="p-4 bg-yellow-500">Item 4</div>
+  </div>
+<div className="grid grid-cols-2 place-items-center gap-4">
+    <div>Item 1</div>
+    <div>Item 2</div>
+    <div>Item 3</div>
+    <div>Item 4</div>
+  </div>
+ <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+    <div className="p-6 bg-blue-500 text-white">Dashboard 1</div>
+    <div className="p-6 bg-green-500 text-white">Dashboard 2</div>
+    <div className="p-6 bg-red-500 text-white">Dashboard 3</div>
+  </div>
   );
 }
 ```
@@ -149,6 +171,18 @@ export default function Home() {
 
 ### use define grid rows
 * use grid grid-rows-3 gap-4
+
+### use col-span
+* use grid grid-cols-3 gap-4 span-2
+
+### use responsive grids
+* use grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4
+
+### use place-items
+* use grid grid-cols-2 place-items-center gap-4
+
+### use responsive 3-column dashboard that becomes one column on mobile
+* use grid grid-cols-1 md:grid-cols-3 gap-4
 
 
 </details>
@@ -213,9 +247,25 @@ export default function Home() {
 grid-rows-3 → Defines 3 rows.
 gap-4 → Adds space between the rows.
 
+* grid → Makes the parent a grid container.
+  grid-cols-3 → Creates 3 columns.
+  col-span-2 → Makes Item 1 span across 2 columns.
+  gap-4 → Adds space between the items.
 
+* grid-cols-1 → Small screens par 1 column.
+  sm:grid-cols-2 → sm screen par 2 columns.
+  lg:grid-cols-3 → Large screens par 3 columns.
+  gap-4 → Items ke darmiyan space.
+
+* grid → Makes the parent a grid container.
+  grid-cols-2 → Creates 2 columns.
+  place-items-center → Centers the items horizontally and vertically.
+  gap-4 → Adds space between the items.
+
+* grid-cols-1 → Mobile par 1 column.
+  md:grid-cols-3 → Medium aur large screens par 3 columns.
+  gap-4 → Cards ke darmiyan space.
   
-
 </details>
 
 

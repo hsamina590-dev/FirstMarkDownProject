@@ -47,6 +47,36 @@ export default function Home() {
     <div>Item 2</div>
     <div>Item 3</div>
   </div>
+ <div className="flex items-center h-32">
+    <div>Item 1</div>
+    <div>Item 2</div>
+    <div>Item 3</div>
+  </div>
+ <div className="flex flex-wrap content-center h-64">
+    <div className="w-32 p-4 bg-blue-500">Item 1</div>
+    <div className="w-32 p-4 bg-green-500">Item 2</div>
+    <div className="w-32 p-4 bg-red-500">Item 3</div>
+  </div>
+<div className="flex gap-4">
+    <div>Item 1</div>
+    <div>Item 2</div>
+    <div>Item 3</div>
+  </div>
+<div className="flex space-x-4">
+    <div>Item 1</div>
+    <div>Item 2</div>
+    <div>Item 3</div>
+  </div>
+ <div className="flex flex-col space-y-4">
+    <div>Item 1</div>
+    <div>Item 2</div>
+    <div>Item 3</div>
+  </div>
+<div className="grid grid-cols-3 gap-4">
+    <div>Item 1</div>
+    <div>Item 2</div>
+    <div>Item 3</div>
+  </div>
   );
 }
 ```
@@ -83,9 +113,23 @@ export default function Home() {
 ### use justify
 * The justify code justify-start, justify-end, justify-between, justify-around, justify-evenly. .
 
+### use items
+* use flex items-center h-32
 
+### use content
+* use flex flex-wrap content-center h-64
 
+### use gap
+* use flex gap-4
 
+### use space-x
+* use flex space-x-4
+
+### use space-y
+* flex flex-col space-y-4
+
+### use grid
+* grid grid-cols-3 gap-4
 
 
 </details>
@@ -117,7 +161,37 @@ export default function Home() {
 
 * justify-center → Centers the items horizontally.
 
+* flex → Makes the parent a flex container.
+  items-center → Centers the items vertically.
+  h-32 → Gives the container height so the vertical alignment can be seen.
 
+* flex → Makes the parent a flex container.
+  flex-wrap → Allows items to wrap onto multiple lines.
+  content-center → Centers the wrapped rows vertically.
+  h-64 → Gives the container height so the effect is visible.
+
+* flex → Makes the parent a flex container.
+  gap-4 → Adds space between the items.
+  gap-2, gap-4, gap-6, gap-8 → Different gap sizes.
+
+* flex → Makes the parent a flex container.
+  space-x-4 → Adds horizontal space between the items.
+  space-x-2, space-x-4, space-x-6 → Different horizontal spacing sizes.
+
+* flex-col → Places the items in a vertical column.
+  space-y-4 → Adds vertical space between the items.
+  space-y-2, space-y-4, space-y-6 → Different vertical spacing sizes.
+
+** grid → Makes the parent a grid container.
+  grid-cols-3 → Creates 3 columns.
+  gap-4 → Adds space between the items.
+
+
+
+
+
+
+  
 
 </details>
 

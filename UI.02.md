@@ -77,6 +77,19 @@ export default function Home() {
     <div>Item 2</div>
     <div>Item 3</div>
   </div>
+<div className="grid grid-cols-3 gap-4">
+    <div>Item 1</div>
+    <div>Item 2</div>
+    <div>Item 3</div>
+    <div>Item 4</div>
+    <div>Item 5</div>
+    <div>Item 6</div>
+  </div>
+<div className="grid grid-rows-3 gap-4">
+    <div>Item 1</div>
+    <div>Item 2</div>
+    <div>Item 3</div>
+  </div>
   );
 }
 ```
@@ -126,10 +139,16 @@ export default function Home() {
 * use flex space-x-4
 
 ### use space-y
-* flex flex-col space-y-4
+* use flex flex-col space-y-4
 
 ### use grid
-* grid grid-cols-3 gap-4
+* use grid grid-cols-3 gap-4
+
+### use define grid columns
+* use grid grid-cols-3 gap-4
+
+### use define grid rows
+* use grid grid-rows-3 gap-4
 
 
 </details>
@@ -182,13 +201,17 @@ export default function Home() {
   space-y-4 → Adds vertical space between the items.
   space-y-2, space-y-4, space-y-6 → Different vertical spacing sizes.
 
-** grid → Makes the parent a grid container.
+* grid → Makes the parent a grid container.
   grid-cols-3 → Creates 3 columns.
   gap-4 → Adds space between the items.
 
+* grid → Makes the parent a grid container.
+  grid-cols-3 → Defines 3 columns.
+  gap-4 → Adds space between the grid items.
 
-
-
+* grid → Makes the parent a grid container.
+grid-rows-3 → Defines 3 rows.
+gap-4 → Adds space between the rows.
 
 
   

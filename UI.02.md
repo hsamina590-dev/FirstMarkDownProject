@@ -42,6 +42,11 @@ export default function Home() {
     <div className="w-32 p-4 bg-red-500">Item 3</div>
     <div className="w-32 p-4 bg-yellow-500">Item 4</div>
   </div>
+ <div className="flex justify-center">
+    <div>Item 1</div>
+    <div>Item 2</div>
+    <div>Item 3</div>
+  </div>
   );
 }
 ```
@@ -75,7 +80,8 @@ export default function Home() {
 ### use flex wrap
 * The flex flex-wrap gap-4.
 
-
+### use justify
+* The justify code justify-start, justify-end, justify-between, justify-around, justify-evenly. .
 
 
 
@@ -109,7 +115,7 @@ export default function Home() {
   flex-wrap → Allows items to move to the next line when there is not enough space.
   gap-4 → Adds space between the items.
 
-
+* justify-center → Centers the items horizontally.
 
 
 

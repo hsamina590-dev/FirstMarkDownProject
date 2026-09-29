@@ -55,21 +55,79 @@ return(
 <details>
 <summary>02 — Change Typography Responsively</summary>
 
+### Change Spacing Responsively
+### Change Layout Responsively
+### Hide/Show Elements Responsively
+
 ### Code
 
 ```tsx
 <h1 className="text-2xl md:text-4xl lg:text-6xl">
   Responsive Heading
 </h1>
+<div className="p-4 md:p-8 lg:p-12">
+  Responsive Spacing
+</div>
+<div className="flex flex-col md:flex-row">
+  <div>Item 1</div>
+  <div>Item 2</div>
+</div>
+<div className="block md:hidden">
+  Mobile Only
+</div>
 ```
 ### Tailwind Classes Used
    *  Applying use class text-2xl → Default text size.
-   -> md:text-4xl → Medium screen par larger text.
-   -> lg:text-6xl → Large screen par even larger text.
+   * md:text-4xl → Medium screen par larger text.
+   * lg:text-6xl → Large screen par even larger text.
+   * flex-col md:flex-row
+   * block md:hidden
 
 ### What We Learned
-   * Text size ko different screen sizes ke according change kar sakte hain.
-  -> md: medium screens ke liye hai.
-  -> lg: large screens ke liye hai.
+   * Change font size according to screen size.
+   * Change padding according to screen size.
+   * Change layout direction responsively.
+   * Hide and show elements on different screens.
+
+  </details> 
+
+  <details>
+<summary>03 — Responsive Flex & Grid</summary>
+
+### Change Grid Columns Responsively
+### Change Flex Direction Responsively
+### Build Responsive Cards
+
+### Code
+
+```tsx
+<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+  <div>Item 1</div>
+  <div>Item 2</div>
+  <div>Item 3</div>
+</div>
+<div className="flex flex-col md:flex-row gap-4">
+  <div>Item 1</div>
+  <div>Item 2</div>
+  <div>Item 3</div>
+</div>
+<div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+  <div className="p-6 border rounded">Card 1</div>
+  <div className="p-6 border rounded">Card 2</div>
+  <div className="p-6 border rounded">Card 3</div>
+</div>
+
+```
+### Tailwind Classes Used
+   *  Applying class use grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4
+   *  Applying class use flex flex-col md:flex-row gap-4
+   *  Applying class use grid grid-cols-1 md:grid-cols-3 gap-4
+
+### What We Learned
+   * Change font size according to screen size.
+   * Change padding according to screen size.
+   * Change layout direction responsively.
+   * Hide and show elements on different screens.
 
   </details>   
+

@@ -144,6 +144,7 @@ return(
 ### Build a Complete Responsive Landing Page
 ### code
 ```tsx
+<h2> Build Mobile Navigation</h2>
 <nav className="flex flex-col md:flex-row gap-4">
   <a href="#">Home</a>
   <a href="#">About</a>
@@ -197,7 +198,7 @@ return(
 </div>
 ```
 
-## What We Learned
+### What We Learned
 * Build mobile navigation.
 * Build responsive cards.
 * Build responsive tables.

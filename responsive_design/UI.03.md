@@ -31,5 +31,5 @@ return(
 ### What we Learn
   *  Mobile-first design means designing for small screens first.
      md: is used to change the design on medium and larger screens.
-    * sm: changes the style for small screens and larger screens.
+  * sm: changes the style for small screens and larger screens.
 </details>

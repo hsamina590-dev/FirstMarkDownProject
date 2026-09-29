@@ -31,10 +31,11 @@ Typography in Tailwind CSS is used to control fonts, text size, weight, spacing,
 
 ### code
 
+```tsx
 <h1 className="text-4xl">
   Typography Heading
 </h1>
-
+```
 ### Apply / Use Classes
 * text-sm
 * text-lg

@@ -18,11 +18,11 @@ Typography in Tailwind CSS is used to control fonts, text size, weight, spacing,
 ```
 
 ### Apply / Use Classes
-  * font-sans → Applies a sans-serif font.
-font-serif → Applies a serif font.
-font-mono → Applies a monospace font.
+** font-sans → Applies a sans-serif font.
+** font-serif → Applies a serif font.
+** font-mono → Applies a monospace font.
 
 ### What We Learned
-How to change the font family.
-How to use different font families with Tailwind CSS.
+** How to change the font family.
+** How to use different font families with Tailwind CSS.
 </details>

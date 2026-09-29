@@ -101,16 +101,21 @@ return(
 ### Code
 
 ```tsx
+<h2>Change Grid Columns Responsively</h2>
 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
   <div>Item 1</div>
   <div>Item 2</div>
   <div>Item 3</div>
 </div>
+
+<h2>Change Flex Direction Responsively</h2>
 <div className="flex flex-col md:flex-row gap-4">
   <div>Item 1</div>
   <div>Item 2</div>
   <div>Item 3</div>
 </div>
+
+<h2>Build Responsive Cards</h2>
 <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
   <div className="p-6 border rounded">Card 1</div>
   <div className="p-6 border rounded">Card 2</div>
@@ -130,4 +135,76 @@ return(
    * Hide and show elements on different screens.
 
   </details>   
+
+## Components & Landing Page
+
+<details> <summary>04 — Responsive Components & Landing Page</summary>
+  
+### Build Mobile Navigation
+### Build Responsive Tables
+### Build Responsive Hero Section
+### Build a Complete Responsive Landing Page
+### code
+```tsx
+<nav className="flex flex-col md:flex-row gap-4">
+  <a href="#">Home</a>
+  <a href="#">About</a>
+  <a href="#">Contact</a>
+</nav>
+
+<h2>Build Responsive Tables</h2>
+<div className="overflow-x-auto">
+  <table className="min-w-full">
+    <tbody>
+      <tr>
+        <td className="p-4">Name</td>
+        <td className="p-4">Email</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<h2>Build Responsive Hero Section</h2>
+<section className="p-6 md:p-12 lg:p-20 text-center">
+  <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold">
+    Welcome to Our Website
+  </h1>
+  <p className="mt-4 text-base md:text-lg">
+    A responsive hero section.
+  </p>
+</section>
+
+<h2>Build a Complete Responsive Landing Page</h2>
+<div className="min-h-screen">
+  <header className="p-4 md:p-6">
+    <h1 className="text-2xl md:text-4xl font-bold">
+      My Website
+    </h1>
+  </header>
+
+  <main className="grid grid-cols-1 md:grid-cols-2 gap-6 p-6">
+    <div>
+      <h2 className="text-3xl md:text-5xl font-bold">
+        Responsive Design
+      </h2>
+      <p className="mt-4">
+        Mobile to desktop responsive layout.
+      </p>
+    </div>
+
+    <div className="p-6 border rounded">
+      Responsive Content
+    </div>
+  </main>
+</div>
+```
+
+## What We Learned
+* Build mobile navigation.
+* Build responsive cards.
+* Build responsive tables.
+* Build responsive hero sections.
+* Build a complete responsive landing page.
+</details>
+  
 

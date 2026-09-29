@@ -26,3 +26,56 @@ Typography in Tailwind CSS is used to control fonts, text size, weight, spacing,
 ** How to change the font family.
 ** How to use different font families with Tailwind CSS.
 </details>
+
+<details> <summary>02 — Font Size</summary>
+
+### code
+
+<h1 className="text-4xl">
+  Typography Heading
+</h1>
+
+### Apply / Use Classes
+* text-sm
+* text-lg
+* text-2xl
+* text-4xl
+
+### What We Learned 
+** How to change text size using Tailwind classes.
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

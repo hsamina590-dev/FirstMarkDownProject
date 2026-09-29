@@ -136,8 +136,6 @@ return(
 
   </details>   
 
-## Components & Landing Page
-
 <details> <summary>04 — Responsive Components & Landing Page</summary>
   
 ### Build Mobile Navigation

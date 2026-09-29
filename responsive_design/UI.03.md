@@ -2,12 +2,12 @@
 
 ## Responsive Design
 
+### Understand Mobile-First Design
+
 Tailwind CSS responsive design allows us to create layouts that work on mobile, tablet, and desktop screens.
 
 <details>
-<summary>01 — Mobile First & Breakpoints</summary>
-
-### Understand Mobile-First Design
+<summary>01 — Change Spacing Responsively </summary>
 
 #### Code
 

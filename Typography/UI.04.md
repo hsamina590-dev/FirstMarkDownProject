@@ -46,6 +46,26 @@ Typography in Tailwind CSS is used to control fonts, text size, weight, spacing,
 ** How to change text size using Tailwind classes.
 </details>
 
+<details> <summary>03 — Font Weight</summary>
+
+### code
+
+```tsx
+<h1 className="font-bold">
+  Bold Heading
+</h1>
+```
+
+### Apply / Use Classes
+* font-normal
+* font-medium
+* font-semibold
+* font-bold
+
+### What We Learned
+* How to make text normal, medium, semibold, or bold.
+</details>  
+
 
 
 

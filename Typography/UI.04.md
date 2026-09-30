@@ -309,7 +309,7 @@ Typography in Tailwind CSS is used to control fonts, text size, weight, spacing,
 ```
 
 ### Apply / Use Classes
-*max-w-3xl
+* max-w-3xl
 * mx-auto
 * p-6
 * text-4xl
@@ -327,13 +327,13 @@ Typography in Tailwind CSS is used to control fonts, text size, weight, spacing,
 ## Typography file 
 
 01 Font Family
-↓
+→
 02 Font Size
-↓
+→
 03 Font Weight
-↓
+→
 ...
-↓
+→
 15 Professional Documentation Page
 and topic = separate dropdown + Code + Apply/Use Classes + What We Learned.
 

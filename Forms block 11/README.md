@@ -18,7 +18,7 @@ inputs, selects, checkboxes, radio buttons, textareas, and validation states.
   placeholder="Enter your name"
   className="w-full rounded-lg border border-gray-300 p-3"
 />
-```
+
 ### Tailwind Class
 w-full rounded-lg border border-gray-300 p-3
 
@@ -434,7 +434,7 @@ Build
 
 Complete registration form with validation-state UI.
 
-</details> 
+</details> ```
 
 ## Block 11  flow:
 Input → Select → Checkbox → Radio → Textarea → Placeholder → Focus → Error → Success → Disabled → Form Layout → Responsive Form → Build

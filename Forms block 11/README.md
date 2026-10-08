@@ -18,7 +18,7 @@ inputs, selects, checkboxes, radio buttons, textareas, and validation states.
   placeholder="Enter your name"
   className="w-full rounded-lg border border-gray-300 p-3"
 />
-
+```
 ### Tailwind Class
 w-full rounded-lg border border-gray-300 p-3
 
@@ -30,13 +30,15 @@ Input ko width, border, rounded corners aur padding dene ke liye Tailwind classe
 <details> <summary>02 — Select Styling</summary>
   
 ### Code
+```tsx
 <select className="w-full rounded-lg border border-gray-300 p-3">
   <option>Select your city</option>
   <option>Pakpattan</option>
   <option>Lahore</option>
   <option>Islamabad</option>
 </select>
-Tailwind Class
+```
+### Tailwind Class
 
 rounded-lg border p-3
 
@@ -45,8 +47,11 @@ rounded-lg border p-3
 select dropdown ko border, rounded corners aur spacing ke saath style karna seekha.
 
 </details>
+
 <details> <summary>03 — Checkbox Styling</summary>
-Code
+  
+### Code
+```tsx
 <label className="flex items-center gap-2">
   <input
     type="checkbox"
@@ -54,7 +59,8 @@ Code
   />
   <span>I agree to the terms</span>
 </label>
-Tailwind Class
+```
+### Tailwind Class
 
 h-5 w-5 accent-blue-500
 
@@ -63,8 +69,11 @@ h-5 w-5 accent-blue-500
 Checkbox ka size aur checked hone par color accent-blue-500 se control kar sakte hain.
 
 </details>
+
 <details> <summary>04 — Radio Styling</summary>
-Code
+  
+### Code
+```tsx
 <div className="flex gap-4">
   <label className="flex items-center gap-2">
     <input
@@ -84,23 +93,28 @@ Code
     Female
   </label>
 </div>
-Tailwind Class
+```
+### Tailwind Class
 
 h-5 w-5 accent-blue-500
 
-↓ We Learn
+ ↓ We Learn
 
 Radio buttons ko size aur accent color de kar style kar sakte hain.
 
 </details>
+
 <details> <summary>05 — Textarea Styling</summary>
-Code
+  
+### Code
+```tsx
 <textarea
   rows={4}
   placeholder="Write your message..."
   className="w-full rounded-lg border border-gray-300 p-3"
 ></textarea>
-Tailwind Class
+```
+### Tailwind Class
 
 w-full rounded-lg border p-3
 
@@ -109,14 +123,18 @@ w-full rounded-lg border p-3
 Textarea ko full width, border, rounded corners aur padding ke saath style karna seekha.
 
 </details>
+
 <details> <summary>06 — Placeholder Styling</summary>
-Code
+  
+### Code
+```tsx
 <input
   type="text"
   placeholder="Enter your email"
   className="w-full rounded-lg border p-3 placeholder:text-gray-400"
 />
-Tailwind Class
+```
+### Tailwind Class
 
 placeholder:text-gray-400
 
@@ -125,14 +143,18 @@ placeholder:text-gray-400
 placeholder: variant se placeholder text ka color aur doosri properties change kar sakte hain.
 
 </details>
+
 <details> <summary>07 — Focus Styling</summary>
-Code
+  
+### Code
+```tsx
 <input
   type="text"
   placeholder="Click here"
   className="w-full rounded-lg border border-gray-300 p-3 outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-200"
 />
-Tailwind Class
+```
+### Tailwind Class
 
 focus:border-blue-500
 focus:ring-2
@@ -145,8 +167,11 @@ Jab user input par click karta hai to focus: classes apply hoti hain.
 Is se user ko pata chalta hai ke currently kaunsa field active hai.
 
 </details>
+
 <details> <summary>08 — Error States</summary>
-Code
+  
+### Code
+```TSX
 <div>
   <input
     type="email"
@@ -158,7 +183,8 @@ Code
     Please enter a valid email.
   </p>
 </div>
-Tailwind Class
+```
+### Tailwind Class
 
 border-red-500
 text-red-500
@@ -169,8 +195,11 @@ focus:ring-red-200
 Error state mein input ka border aur error message red color mein show kar sakte hain.
 
 </details>
+
 <details> <summary>09 — Success States</summary>
-Code
+  
+### Code
+```tsx
 <div>
   <input
     type="email"
@@ -183,7 +212,8 @@ Code
     Email is valid.
   </p>
 </div>
-Tailwind Class
+```
+### Tailwind Class
 
 border-green-500
 text-green-600
@@ -194,15 +224,19 @@ focus:ring-green-200
 Success state mein green border aur success message use karte hain.
 
 </details>
+
 <details> <summary>10 — Disabled States</summary>
-Code
+  
+### Code
+```tsx
 <button
   disabled
   className="cursor-not-allowed rounded-lg bg-gray-300 px-5 py-2 text-gray-500"
 >
   Submit
 </button>
-Tailwind Class
+```
+### Tailwind Class
 
 disabled:
 cursor-not-allowed
@@ -214,8 +248,11 @@ Disabled element ko user click nahi kar sakta.
 cursor-not-allowed user ko indicate karta hai ke button disabled hai.
 
 </details>
+
 <details> <summary>11 — Form Layouts</summary>
-Code
+  
+### Code
+```tsx
 <form className="mx-auto max-w-md space-y-4">
 
   <div>
@@ -250,7 +287,8 @@ Code
   </button>
 
 </form>
-Tailwind Class
+```
+### Tailwind Class
 
 max-w-md
 space-y-4
@@ -264,8 +302,11 @@ Form layout mein space-y-4 fields ke darmiyan vertical spacing create karta hai.
 max-w-md form ki maximum width control karta hai.
 
 </details>
+
 <details> <summary>12 — Responsive Forms</summary>
-Code
+  
+### Code
+```tsx
 <form className="mx-auto grid max-w-3xl grid-cols-1 gap-4 p-4 md:grid-cols-2">
 
   <input
@@ -306,7 +347,8 @@ Code
   </button>
 
 </form>
-Tailwind Class
+```
+### Tailwind Class
 
 grid-cols-1
 md:grid-cols-2
@@ -319,8 +361,11 @@ Mobile par form single column mein hota hai.
 md:grid-cols-2 ki wajah se medium screen aur us se badi screen par form 2 columns mein show hota hai.
 
 </details>
+
 <details> <summary>13 — Build: Complete Registration Form</summary>
-Code
+  
+### Code
+```tsx
 <form className="mx-auto max-w-lg space-y-5 rounded-xl border p-6 shadow-md">
 
   <h2 className="text-2xl font-bold">
@@ -404,7 +449,8 @@ Code
   </button>
 
 </form>
-Tailwind Class
+```
+### Tailwind Class
 
 border
 rounded-lg
@@ -434,7 +480,7 @@ Build
 
 Complete registration form with validation-state UI.
 
-</details> ```
+</details> 
 
 ## Block 11  flow:
 Input → Select → Checkbox → Radio → Textarea → Placeholder → Focus → Error → Success → Disabled → Form Layout → Responsive Form → Build

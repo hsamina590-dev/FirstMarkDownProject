@@ -445,4 +445,5 @@ export default function Home() {
 
 </details>
 
-Note: Important: The first 11 sections demonstrate individual dark-mode concepts. The final Build section creates a working dashboard with a button that switches between light and dark themes.
+### Important: 
+ The first 11 sections demonstrate individual dark-mode concepts. The final Build section creates a working dashboard with a button that switches between light and dark themes.

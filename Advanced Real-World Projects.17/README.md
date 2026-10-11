@@ -11,6 +11,7 @@ This project is a personal portfolio website built with Next.js, React, TypeScri
 * Responsive layout
 
 <details>
+  
 <summary>01 — Project Data (Projects & Skills)</summary>
 
   ### code
@@ -89,7 +90,7 @@ How to use hover effects and sticky positioning.
 
 </details>
       
-     <details>
+<details>
      
 <summary>03 — Hero Section</summary>
 

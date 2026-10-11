@@ -149,8 +149,6 @@ How to use hover effects and sticky positioning.
 </section>
 ```
 
-↓
-
 ### Tailwind Classes
 
 | Tailwind Class | What It Does |

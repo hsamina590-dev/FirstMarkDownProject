@@ -47,6 +47,7 @@ How to reuse data in React components.
 </details>
 
 <details>
+  
 <summary>02 — Navbar & Navigation</summary>
 
 ### Code
@@ -87,8 +88,6 @@ How to link sections using IDs.
 How to use hover effects and sticky positioning.
 
 </details>
-
-      {/* Hero Section */}
       
      <details>
      
@@ -211,8 +210,6 @@ How to use hover effects and sticky positioning.
 
 </details>
 
-      {/* About Section */}
-
  <details>
    
 <summary>04 — About Section</summary>
@@ -243,7 +240,6 @@ How to use hover effects and sticky positioning.
   </div>
 </section>
 ```
-
 ↓
 
 ### Tailwind Classes
@@ -284,9 +280,8 @@ How to use hover effects and sticky positioning.
 
 </details>
 
-      {/* Skills Section */}
-
 <details>
+  
 <summary>05 — Skills Section</summary>
 
 ### Code
@@ -357,10 +352,8 @@ How to use hover effects and sticky positioning.
 
 </details>
 
-      {/* Projects Section */}
-
-
 <details>
+  
 <summary>06 — Projects Section</summary>
 
 ### Code
@@ -471,10 +464,8 @@ How to use hover effects and sticky positioning.
 
 </details>
 
-      {/* Contact Section */}
-
-
 <details>
+  
 <summary>07 — Contact Section</summary>
 
 ### Code
@@ -549,10 +540,8 @@ How to use hover effects and sticky positioning.
 
 </details>
 
-      {/* Footer Section */}
-
-
 <details>
+  
 <summary>08 — Footer Section</summary>
 
 ### Code
@@ -592,6 +581,7 @@ How to use hover effects and sticky positioning.
 </details>
 
 <details>
+  
 <summary>09 — Build: Complete Personal Portfolio Website</summary>
 
 ### Build Project
@@ -623,37 +613,5 @@ Create a complete responsive personal portfolio website using Next.js, React, Ty
   
 ## — Build: Complete Personal Portfolio Website
 
-### Build Project
 
-Create a complete responsive personal portfolio website using Next.js, React, TypeScript, and Tailwind CSS.
-
-### Required Sections
-
-* Navbar and navigation links
-
-* Hero section with introduction and buttons
-
-* About Me section
-
-* Skills and technologies
-
-Featured project cards
-
-* Contact section with email link
-
-* Footer with copyright information
-
-### What We Learned
-
-How to combine multiple sections into one website.
-
-How to build reusable layouts using React.
-
-How to display data dynamically using arrays and map().
-
-How to use Tailwind CSS for responsive design.
-
-How to style buttons, cards, badges, gradients, and hover effects.
-
-How to organize a complete personal portfolio project.
 

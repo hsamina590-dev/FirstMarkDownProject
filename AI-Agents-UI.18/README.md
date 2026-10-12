@@ -71,5 +71,5 @@ npm run build
 **Samina Hasan**
 
 Built as a learning and portfolio project.
-![link](AIhero2.PNG)
-)
+![link](hero2.PNG)
+

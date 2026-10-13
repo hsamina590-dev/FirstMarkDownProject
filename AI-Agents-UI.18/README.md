@@ -73,3 +73,4 @@ npm run build
 Built as a learning and portfolio project.
 ![link](hero2.PNG)
 ![link](part1.PNG)
+![link](part2.PNG)
